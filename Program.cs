@@ -7,6 +7,7 @@
 /// CreateBuilder une methode de WebApplication qui est static et son type retour est  WebApplicationBuilder
 /// 
 ///
+
 var builder = WebApplication.CreateBuilder();
 ///
 /// Build est une methode de notre variable builder et son type de retour WebApplication
@@ -16,7 +17,7 @@ var app = builder.Build();
 
 #region les verbes HTTP les plus utiliser
 
-app.MapGet("/get", () => "Hello GET");
+app.MapGet("/get", () => "Hello GET"); 
 
 //ce qui suit on peux le voir que on postman 
 
